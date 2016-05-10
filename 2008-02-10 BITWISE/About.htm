@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+       <meta name="description" content="Algorithm Intensive Online Programming contest of IIT Kharagpur with prizes of over $5500 . 5000 people participating from over 36 countries on Febuary 10th 2008.">
+       <meta name="keywords" content="ACM,C,C++,ICPC,IOI,Spoj,algorithm competition, bitwise ,coding ,computer, algorithm,olympiad,judge,online,prizes,problem set,programming,contest,topcoder">
+	<link rel="shortcut icon" type="image/ico" href="http://www.bitwise.iitkgp.ernet.in/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="Bitwise RSS feed" href="http://bitwiseiitkgp.wordpress.com/feed/">
+	<link rel="stylesheet" href="About_files/style.css" type="text/css" charset="utf-8"><title>About Bitwise 2008: Reach and Vision of our Team</title>
+	 
+	
+<script type="text/javascript">
+var currenttime = 'June 29, 2008 11:51:43'
+var bitwisestarttime = 'February 10, 2008 12:20:00' ;
+var bitwisestoptime = 'February 11, 2008 01:00:00' ;
+
+var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+var serverdate=new Date(currenttime) ;
+var bitstarttime = new Date(bitwisestarttime);
+var bitstoptime = new Date(bitwisestoptime);
+
+//alert(serverdate);
+
+function padlength(what){
+var output=(what.toString().length==1)? "0"+what : what
+return output
+}
+
+function displaytime(){
+serverdate.setSeconds(serverdate.getSeconds()+1)
+var datestring=montharray[serverdate.getMonth()]+" "+padlength(serverdate.getDate())+", "+serverdate.getFullYear()
+var timestring=padlength(serverdate.getHours())+":"+padlength(serverdate.getMinutes())+":"+padlength(serverdate.getSeconds())
+diff = bitstoptime - serverdate;
+daysleft = Math.floor( diff / (60*60*24*1000));
+hoursleft = Math.floor( diff / (60*60*1000) ) - daysleft*24 ;
+minutesleft = Math.floor( diff / (60*1000) ) - daysleft*24*60 - hoursleft*60;
+secondsleft = Math.floor( diff / (1000) ) - daysleft*24*60*60 - hoursleft*60*60  - minutesleft*60;
+document.getElementById("servertime").innerHTML= "Bitwise 2008 will end in "+hoursleft+" Hours "+minutesleft+" Mins " + secondsleft+" Sec";
+
+if(refresh_time = document.getElementById("refreshTime")){	
+	refresh_time.innerHTML = refresh_time.innerHTML - 1;
+	if(refresh_time.innerHTML == 0){
+		location.href = "index.php?q=status&p=status"
+	}
+}
+
+}
+
+function start_date(){
+setInterval("displaytime()", 1000)
+}
+</script>
+
+<script type="text/javascript">	
+	function resized(){
+	}
+</script>
+
+<style>.vnewsticker,a.vnewsticker{font-family:"Trebuchet MS", verdana,arial,sans-serif;font-size:12px;color:#000000;text-decoration:none;font-weight:normal}a.vnewsticker:hover{font-family:"Trebuchet MS", verdana,arial,sans-serif;font-size:12px;color:#000000;text-decoration:underline}</style></head><body><!-- onload="start_date()"> -->
+	<!--<script src="sidenavigation.js" type="text/javascript"></script>-->	
+		<div id="logout">
+		Welcome Guest ! | <a href="http://www.bitwise.iitkgp.ernet.in/index.php?q=rules" class="style1">Rules</a> | <a href="http://www.bitwise.iitkgp.ernet.in/index.php?q=status" class="style1">Login</a>		</div>
+	<div id="wrapper">
+		<div id="header">
+			<h1><a href="http://www.bitwise.iitkgp.ernet.in/"><img src="About_files/logo.jpg" alt="Bitwise 2008"></a>
+
+			</h1>
+			<div id="nav">
+				<a href="http://www.bitwise.iitkgp.ernet.in/index.php?q=home" class="button">Home</a>
+				<a href="http://www.bitwise.iitkgp.ernet.in/index.php?q=status&amp;p=problems" class="button">Problems</a>
+				<a href="http://www.bitwise.iitkgp.ernet.in/index.php?q=status&amp;p=ranking" class="button">Ranking</a>
+				<a href="http://www.bitwise.iitkgp.ernet.in/index.php?q=sponsors" class="button">Sponsors</a>
+				<a href="http://www.bitwise.iitkgp.ernet.in/index.php?q=rules" class="button">Rules</a>
+				<a href="http://www.bitwise.iitkgp.ernet.in/enigma/enigma" class="button" target="_blank">Enigma</a>
+				<a href="http://www.bitwise.iitkgp.ernet.in/index.php?q=about" class="button">About</a>
+				  			</div>
+				<div id="servertime" style="color: white; position: absolute; top: 125px; right: 0px; width: 300px; z-index: 999;">Bitwise 2008 is Over!!!!	</div>
+
+			<a href="http://cse.iitkgp.ac.in/" target="_blank"><img style="position: relative; top: -15px; left: -15px;" src="About_files/cse.jpg" alt="CSEIITKGP"></a>
+		</div>
+		
+		<div id="headline">
+			<div id="search-news">
+			<br>
+			
+			 <div>
+				
+			
+				<span id="countdown" class="linkHome">
+				</span> 
+
+				<h2 class="downcast">Bitwise Updates</h2>
+					<div style="">
+					<ol style="font-size: 10px;">
+<li style="font-size: 12px;"><span><strong>Bitwise '08</strong> <a href="http://www.bitwise.iitkgp.ernet.in/index.php?q=prevproblems"><u>solutions</u></a> are up. The Best codes will be put up shortly </span></li> 
+<li style="font-size: 12px;"><span><strong>Bitwise '08</strong> is over. The final <a href="http://www.bitwise.iitkgp.ernet.in/rankings.php"><u>rankings</u></a> are up. Thank you for participating in the competition. </span></li> 
+<li style="font-size: 12px;">The top 50 teams and the top Indian team will be contacted by e-mail.</li> 
+<!--<li style="font-size:12px"><span> <strong>NO</strong> queries regarding time limits will not be entertained. The limits will not be disclosed under any circumstances.</span></li>
+<li style="font-size:12px"><span><strong>NOTE:</strong> The ban Decision was reverted on loveall. Best of luck to them for the contest</span></li>
+<li style="font-size:12px"><span><strong>NOTE:</strong> Problem 9 will be re-evaluated for all the teams. If your earlier submission was correct, your total number of submissions will decrease. We will consider the earliest correct solution for the total number of submissions.</span></li>
+<li style="font-size:12px"><span><strong>NOTE:</strong> Problem 1 has been re-evaluated for all the teams. Please check your scores.</span></li>
+<li style="font-size:12px"><span><strong>NOTE:</strong> We have re-evaluated your scores and reset the number of submissions.  If your earlier submissions were correct, your total number of submissions wouldhave decreased, else there would be no difference. </span></li>
+<li style="font-size:12px"><span> The number of maximum submissions has been <strong>INCREASED</strong> to 20. Enjoy the competition.</span></li>
+<li style="font-size:12px"><span> Team Aero_gods and Team ValleyKings have been <strong>BANNED</strong> for copying the solutions. Please follow the <a href="http://bitwise.iitkgp.ernet.in/index.php?q=rules" target="_blank"><u>rules</u></a> given.</span></li>
+<li style="font-size:12px"><span><strong>Bitwise '08</strong> is up and running. Problem submissions HAVE started. Please keep track of the announcements <a href="http://bitwise.iitkgp.ernet.in/index.php?q=announce" target="_about">here</a>. Happy Coding!.</span></li>
+<li style="font-size:12px"><span>If you require any private query you may mail your query to <strong>bitwise08@gmail.com</strong></span></li>
+</ol>
+<li><span>Bitwise starts Sunday 10 Feb at 0650 GMT. Check your local timings <a href="http://www.timeanddate.com/worldclock/fixedtime.html?month=2&day=10&year=2008&hour=12&min=0&sec=0&p1=54" target="_blank">here</a><br/></span></li>
+<li><span>Bitwise 2008 Registrations are now open<br/><a href="index.php?q=register" class="link">Register Now</a></span></li>
+<li><span>Play the notpron of computer science : <a href="/enigma/enigma" target="enigma">Enigma</a> and keep those grey cells sharp.</span></li><li><span>If you liked this years enigma try out the last year's : <a href="/enigma/enigma2007" target="enigma">Enigma 07</a></span></li>
+</ol>-->
+
+					</ol></div>
+			</div> 
+				<h2 class="downcast">Sponsors</h2>
+					<br>
+					<div class="blockcont" style="height: 200px; width: 200px;">
+						<script src="About_files/ticker.js" type="text/javascript"></script><div id="v_container" style="background: transparent none repeat scroll 0%; overflow: hidden; position: relative; top: 0px; left: 0px; width: 200px; height: 100px; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"><div id="v_1" style="overflow: hidden; position: absolute; top: 100px; left: 0px; width: 200px; height: 100px; text-align: center;" class="vnewsticker"><table border="0" cellpadding="0" cellspacing="0" height="100" width="200"><tbody><tr><td class="vnewsticker" align="center" height="100" valign="middle" width="200"><a href="http://www.gm.com/" target="_blank" class="vnewsticker" onmouseover="if(v_canPause&&v_count>1){clearTimeout(v_TIM);v_cl=1}" onmouseout='if(v_canPause&&v_count>1&&v_cl)v_TIM=setTimeout("v_canPause=0;v_slide();v_cl=0",1000)'><img src="About_files/GMRD_logo1.jpg" border="0"><br>Title Sponsor</a></td></tr></tbody></table></div><div id="v_2" style="overflow: hidden; position: absolute; top: 100px; left: 0px; width: 200px; height: 100px; text-align: center;" class="vnewsticker"><table border="0" cellpadding="0" cellspacing="0" height="100" width="200"><tbody><tr><td class="vnewsticker" align="center" height="100" valign="middle" width="200"><a href="http://www.magma-da.com/" target="_blank" class="vnewsticker" onmouseover="if(v_canPause&&v_count>1){clearTimeout(v_TIM);v_cl=1}" onmouseout='if(v_canPause&&v_count>1&&v_cl)v_TIM=setTimeout("v_canPause=0;v_slide();v_cl=0",1000)'><img src="About_files/Magmalogo1.jpg" border="0"><br>Associate Sponsor</a></td></tr></tbody></table></div><div id="v_3" style="overflow: hidden; position: absolute; top: 100px; left: 0px; width: 200px; height: 100px; text-align: center;" class="vnewsticker"><table border="0" cellpadding="0" cellspacing="0" height="100" width="200"><tbody><tr><td class="vnewsticker" align="center" height="100" valign="middle" width="200"><a href="http://www.synopsis.com/" target="_blank" class="vnewsticker" onmouseover="if(v_canPause&&v_count>1){clearTimeout(v_TIM);v_cl=1}" onmouseout='if(v_canPause&&v_count>1&&v_cl)v_TIM=setTimeout("v_canPause=0;v_slide();v_cl=0",1000)'><img src="About_files/synopsys_logo1.jpg" border="0"><br>Associate Sponsor</a></td></tr></tbody></table></div><div id="v_4" style="overflow: hidden; position: absolute; top: 100px; left: 0px; width: 200px; height: 100px; text-align: center;" class="vnewsticker"><table border="0" cellpadding="0" cellspacing="0" height="100" width="200"><tbody><tr><td class="vnewsticker" align="center" height="100" valign="middle" width="200"><a href="http://www.google.com/" target="_blank" class="vnewsticker" onmouseover="if(v_canPause&&v_count>1){clearTimeout(v_TIM);v_cl=1}" onmouseout='if(v_canPause&&v_count>1&&v_cl)v_TIM=setTimeout("v_canPause=0;v_slide();v_cl=0",1000)'><img src="About_files/google_logo1.jpg" border="0"><br>Associate Sponsor</a></td></tr></tbody></table></div><div id="v_5" style="overflow: hidden; position: absolute; top: 0px; left: 0px; width: 200px; height: 100px; text-align: center;" class="vnewsticker"><table border="0" cellpadding="0" cellspacing="0" height="100" width="200"><tbody><tr><td class="vnewsticker" align="center" height="100" valign="middle" width="200"><a href="http://www.samsungindiasoft.com/" target="_blank" class="vnewsticker" onmouseover="if(v_canPause&&v_count>1){clearTimeout(v_TIM);v_cl=1}" onmouseout='if(v_canPause&&v_count>1&&v_cl)v_TIM=setTimeout("v_canPause=0;v_slide();v_cl=0",1000)'><img src="About_files/samsung_logo12.jpg" border="0"><br>Associate Sponsor</a></td></tr></tbody></table></div><div id="v_6" style="overflow: hidden; position: absolute; top: 100px; left: 0px; width: 200px; height: 100px; text-align: center;" class="vnewsticker"><table border="0" cellpadding="0" cellspacing="0" height="100" width="200"><tbody><tr><td class="vnewsticker" align="center" height="100" valign="middle" width="200"><a href="http://www.pagalguy.com/" target="_blank" class="vnewsticker" onmouseover="if(v_canPause&&v_count>1){clearTimeout(v_TIM);v_cl=1}" onmouseout='if(v_canPause&&v_count>1&&v_cl)v_TIM=setTimeout("v_canPause=0;v_slide();v_cl=0",1000)'><img src="About_files/pagalguy_logo.jpg" border="0"><br>Online Media Sponsor</a></td></tr></tbody></table></div></div>
+					</div>
+				<h2 class="downcast">On Demand Security</h2>
+				<div style="text-align: center;">
+						<a href="http://www.ivizindia.com/" target="_blanl"><img src="About_files/logo.png"></a>				<br>
+						iViz Techno Solutions
+						
+				</div>		
+                                 <h2 class="downcast">We suggest you to </h2>
+                                 <div><br>
+<span style="font-size: 10pt;">try your coding skills on <a href="http://www.bitwise.iitkgp.ernet.in/index.php?q=prevproblems">last years problems</a>.</span><br>	
+<br>
+                                 </div>
+
+				
+			
+			</div>
+		<div id="body">
+			<div id="body-left">	
+				
+			
+
+
+ 
+<div class="nav2">
+<a href="http://www.bitwise.iitkgp.ernet.in/index.php?q=about&amp;p=reach" class="linkActive">Bitwise Reach</a> | <a href="http://www.bitwise.iitkgp.ernet.in/index.php?q=about&amp;p=vision" class="linkBlack">Vision Bitwise</a> | <a href="http://www.bitwise.iitkgp.ernet.in/index.php?q=about&amp;p=faqs" class="linkBlack">FAQs</a> | <a href="http://www.bitwise.iitkgp.ernet.in/index.php?q=about&amp;p=credits" class="linkBlack">Team Bitwise</a> | <a href="http://www.bitwise.iitkgp.ernet.in/index.php?q=about&amp;p=contacts" class="linkBlack">Contacts</a>
+</div>
+<div class="headd">Bringing the world's programmers on a common platform</div>
+<div class="answer">
+<p>We reach so many countries of the world that it amazes us when we go
+back and look at the participation statistics after the contest. The
+map above shows the countries from where we have had participation in
+the past (shown in red). It is humbling to know that what started off
+as a fun effort by some students half a decade back has now grown into
+a huge event with such a high participation. The stakes are truly high
+and we are trying our best to make sure that your Bitwise experience is
+a lot of fun!</p>
+<p class="linkHome" style="text-decoration: none;" align="right"><strong>*</strong> <strong>Bitwise</strong> - IIT Kharagpur, India.</p>
+<div class="center"><img id="map" src="About_files/worldmap.png" alt="" border="0"></div><br>
+</div>
+
+
+
+
+
+
+<div style="clear: both;"></div>
+</div>
+<div style="clear: both;"></div>
+	<div class="clear"></div>
+</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div id="footer">
+		<p>© Bitwise 2008 all rights reserved.</p>
+	</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="About_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3425501-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body></html>
