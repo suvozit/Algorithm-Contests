@@ -1,0 +1,16 @@
+Home	http://campusconnect.infosys.com/Aspirations/Home.aspx
+
+
+http://www.devsquare.com/adc/dsweb/contest/campusconnect/index.jsp
+
+
+
+
+help@devsquare.com
+
+
+
+
+you have used multiple main func in your programing directory
+plz use only one main func in your dir.
+
