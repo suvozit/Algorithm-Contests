@@ -1,0 +1,35 @@
+An Easy Catch!
+
+(This could be the easiest question ever seen in CodeCracker.)
+You are required to write a program which is able to perform the following mathematical operations between two complex numbers:
+1. Addition
+2. Subtraction
+3. Multiplication
+
+Input:
+The first line of the input will contain the number of test cases. Each input test case comprises of three fields.
+The first is a symbol, +, - or *. The second and third fields will contain the first and second complex numbers respectively.
+Operands will be provided in the form of x+iy, where x and y are real and imaginary integer values respectively.
+
+UPDATED
+"x+iy" must be accpeted as a string.
+
+Output:
+The output too, must be strictly in the form of x+iy. The number of lines in the output should be the number of input test cases, obvious that is.
+
+Sample Case:
+
+Input:-
+2
++
+1+i2
+3-i4
+*
+-2-i4
+3+i7
+
+Output:-
+4-i2
+22-i26
+
+Problem setter-> Rajat Kansal (9832036300)

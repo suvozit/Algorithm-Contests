@@ -1,0 +1,70 @@
+Problem Statement
+    	
+
+A teacher has just finished grading the test papers for his class. To get an idea of how difficult the test was, he would now like to determine the most common score on the test. In statistics, this is called the "mode" of a set of data points. For instance, if the scores were 65 70 88 70 then the mode would be 70 since it appears twice while all others appear once.
+
+Sometimes, in the case of a tie, the mode will be more than one number. For instance, if the scores were 88 70 65 70 88 then the mode would be 70 88 since they both appear most frequently.
+
+You are given an integer array(say int scores[]). You are to return a number or numbers representing the mode of the set of scores. In the case of more than one number, they should be returned in increasing order.
+
+-       the number of test cases NT will be an integer input as the first line
+-       the number of scores(or examinees) per test case will be the second input int NC
+-  	the third line will be the integer arrays..... and then again the fourth line will be the 
+	number of examinees for the second test case and so on
+-	scores will contain between 1 and 50 elements, inclusive.
+-	Each element of scores will be between 0 and 100 inclusive.
+ 
+Examples
+0)	
+    	
+
+65 70 88 70
+
+Returns: 70 
+
+The first example from the problem statement.
+1)	
+    	
+
+88 70 65 70 88
+
+Returns: 70 88 
+
+The second example from the problem statement.
+2)	
+    	
+
+92 56 14 73 22 38 93 45 55
+
+Returns: 14 22 38 45 55 56 73 92 93 
+
+With no duplicates, all of the elements are the most frequent (appearing once each).
+
+
+SAMPLE INPUT:
+
+3
+
+4
+65 70 88 70
+5
+88 70 65 70 88
+9
+92 56 14 73 22 38 93 45 55
+
+
+SAMPLE OUTPUT:
+
+70
+
+70 88
+
+14 22 38 45 55 56 73 92 93
+
+
+NOTE: The output for a particular test case may be printed immediately after the particular test case and not necessarily after all the test cases have been input. We simply store your output whenever your programs gives it, doesnt matter when it does.
+
+
+Problem setter-> Debayan Banerjee (9832195528)
+
+

@@ -1,0 +1,22 @@
+Problem Statement
+    	
+
+Write a program which takes an integer as input (say int num) and then  prints the string "debayan" num number of times.
+Examples
+0)	
+    	
+
+3
+
+Returns: 
+debayan
+debayan
+debayan
+
+
+
+
+NOTE: The output for a particular test case may be printed immediately after the particular test case and not necessarily after all the test cases have been input. We simply store your output whenever your programs gives it, doesnt matter when it does.
+
+
+

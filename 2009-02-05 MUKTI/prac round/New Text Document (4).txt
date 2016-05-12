@@ -1,0 +1,120 @@
+Problem Statement
+
+    	The definition of how to multiply a string by an integer follows:
+
+   1. The empty string (null) multiplied by any integer is the empty string (null).
+
+      For example: null * 9 = null
+   2. Any string multiplied by 0 is the empty string (null).
+
+      For example: Terrific * 0 = null
+   3. A non-empty string S multiplied by a positive integer k is the concatenation of k occurrences of S.
+
+      For example: Great * 4 = GreatGreatGreatGreat
+   4. A non-empty string S multiplied by a negative integer k is the concatenation of k occurrences of the reverse of S.
+
+      For example: Great * -4 = taerGtaerGtaerGtaerG
+
+Your program will take a String(say char sfact[]) and an int(say int ifact) and return their product.
+ 
+    
+ 
+-       the number of test cases NT will be an integer input as the first line
+-       the number of characters in the string will be the second input int NC
+-  	the third line will be the number int ifact..... and then again the fourth line will be the 
+	number of characters in the string for the 2nd test case and so on
+-	sfact will have length between 0 and 50 inclusive.
+-	ifact will be between -50 and 50 inclusive.
+-       If the product is a null string then print "null" (wthout the quotes)
+-	sFactor will contain only letters ('A'-'Z' and 'a'-'z').
+-	The length of the returned String (sFactor*iFactor) will be between 0 and 50, inclusive.
+ 
+Examples
+0)	
+    	
+
+wOw
+
+0
+
+Returns: null
+
+1)	
+    	
+
+AbC
+
+-3
+
+Returns: CbACbACbA
+
+2)	
+    	
+
+Boo
+
+4
+
+Returns: BooBooBooBoo
+
+3)	
+    	
+
+null
+
+50
+
+Returns: null
+
+4)	
+    	
+
+Racecar
+
+-5
+
+Returns: racecaRracecaRracecaRracecaRracecaR
+
+
+
+SAMPLE INPUT
+
+5
+
+3
+wOw
+0
+
+3
+AbC
+-3
+
+3
+Boo
+4
+
+4
+null
+50
+
+7
+Racecar
+-5
+
+
+
+
+SAMPLE OUTPUT
+
+null
+CbACbACbA
+BooBooBooBoo
+null
+racecaRracecaRracecaRracecaRracecaR
+
+
+
+NOTE: The output for a particular test case may be printed immediately after the particular test case and not necessarily after all the test cases have been input. We simply store your output whenever your programs gives it, doesnt matter when it does.
+
+
+Problem setter-> Debayan Banerjee (9832195528)

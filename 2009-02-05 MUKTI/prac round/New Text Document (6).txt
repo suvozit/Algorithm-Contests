@@ -1,0 +1,43 @@
+Smallest Rectangle 
+ 
+ 
+ 
+You have a plain and simple rectangle to find. Given a set of points (xi,yi), i=1, 2, ..., n, you are required
+to write a program that finds the smallest rectangle, smallest in area, so that all given points are either inside or on the boundary of the rectangle and at least two of the points lie on any one of the sides of the rectangle. If there is more than one smallest rectangle then find any one of them. 
+ 
+Input 
+  The input may contain multiple test cases. For each test case, the first line contains the case number c
+and the total number n (<50) of given points. Each of the next n lines gives the x-coordinate and the 
+y-coordinate of a given point. A blank character separates two input values in a line. 
+The input terminates with an input 0 for c. 
+ 
+Output 
+ 
+For each test case first print in one line, the case number c and the area of the smallest rectangle. 
+The next four lines contain coordinates of four vertices of any one of the possible smallest rectangles.
+The vertices are arranged in ascending order of x-coordinates. In case x-coordinates of any two vertices are equal then the two vertices are arranged in ascending order of y-coordinates.  
+Retain two digits after the decimal point in each computed real value. Keep a blank line between outputs
+of two test cases. 
+ 
+Sample Case:
+
+Input:-
+1 6 
+1.0 1.2 
+1.0 1.5 
+1.3 1.0 
+1.5 3.0 
+5.0 1.0 
+5.0 2.9
+0
+
+Output:-
+1 8.00 
+1.00  1.00    
+1.00  3.00    
+5.00  1.00    
+5.00  3.00    
+
+
+Problem setter-> Rajat Kansal (9832036300)
+ 

@@ -1,0 +1,23 @@
+Dictionary Generator
+
+You have been recruited a job in a company, Strange Oxford Co. This company publishes dictionaries with all possible words that can be formed with the letters of the alphabet. The words may make some sense to you or may not, thats not an issue. Fortunately, your task is the most responsible one! You are supposed to generate the list of such words.
+Unfortunately, you realise that your task is too demanding, in terms of time and stress. So you decide to write a program to accomplish your task.
+You will be given a set of 'n' letters and all you need to do is generate every possible 'n-lettered' word with them. The words can have the letters repeated. But obvious, the words must appear in alphabetical order.
+
+Input:
+The first line of the input will contain two integer values, the number of test cases, i.e. the number of sets that will be provided and the number of letters in the set. The subsequent lines will contain the set of letters, each letter separated by a white space. Each set will be provided in a different line.
+
+Output:
+The output contains the result with each word appearing in a different line, and in alphabetical order. For multiple input case, the result of next input should begin just after the last line containing the last word of the previous input case.
+
+Sample Case:
+
+Input:-
+1 2
+a b
+
+Output:-
+aa
+ab
+ba
+bb

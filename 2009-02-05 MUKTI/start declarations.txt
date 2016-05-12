@@ -1,0 +1,30 @@
+#include "stdafx.h"
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int main()
+{
+return 0;
+}
+
+
+
+
+ * Here is a typical program:
+
+        #include<iostream>    // no need to use iostream.h
+        using namespace std;    //this is required or cin, cout wont work
+        int main()    // Dont write void main()
+        {
+            char a[5];
+            cin>>a;
+            cout<<a;    // NEVER use getch(). conio.h is not an ANSI header file.
+        }    // No need to use return(0);
+
+
+
+http://210.212.5.101/problem.php?probid=1&t=1233840565
+
+http://210.212.5.101/problem.php?probid=3&t=1233840565

@@ -1,0 +1,28 @@
+*********************************  hard 1*********************************************/
+
+Problem author: Swapnil
+
+Problem statement:
+For the final event, we want everyone to solve the hard problem. So, we tried to come up with an easier problem statement. But again, brute force would not help programmers' confidence. Anyway, you are provided with a positive integer n. Can you find the smallest positive integer t such that no of divisors of t is n. If such t is greater than 1000000000000000000, then assign t= -1.
+
+Note: 1<=n<=50000
+
+Input and output:
+First line contains the no of test cases k and next k lines contain a single integer n. Each line of output should contain one single integer t.
+
+Sample Input:
+
+3
+1
+2
+6
+
+Sample Output:
+
+1
+2
+12
+
+Problem Setter--> Swapnil Sonawane (9932779363)
+
+ 
